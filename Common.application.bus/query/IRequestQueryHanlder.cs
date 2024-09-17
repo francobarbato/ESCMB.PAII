@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Common.application.bus.query
 {
-    interface IRequestQueryHandler
+    public interface IRequestQueryHandler
     {
     }
 }

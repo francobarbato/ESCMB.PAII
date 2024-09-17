@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Common.application.bus.notification
 {
-    interface Inotification
+    public interface IRequestNotificationsHandler
     {
     }
 }

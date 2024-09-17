@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Common.application.bus.commands
 {
-    interface Irequest
+    interface IRequestCommand
     {
     }
 }

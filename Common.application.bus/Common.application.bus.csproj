@@ -12,7 +12,6 @@
     <Compile Remove="commands\IRequestCommand.cs" />
     <Compile Remove="commands\IRequestCommandHandler.cs" />
     <Compile Remove="notification\IRequestNotificationsHandler.cs" />
-    <Compile Remove="query\IRequestQuery.cs" />
     <Compile Remove="query\IRequestQueryHanlder.cs" />
   </ItemGroup>
 
@@ -22,7 +21,6 @@
     <None Include="commands\IRequestCommand.cs" />
     <None Include="commands\IRequestCommandHandler.cs" />
     <None Include="notification\IRequestNotificationsHandler.cs" />
-    <None Include="query\IRequestQuery.cs" />
     <None Include="query\IRequestQueryHanlder.cs" />
   </ItemGroup>
 
