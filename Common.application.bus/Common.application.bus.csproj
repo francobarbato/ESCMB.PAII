@@ -7,7 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="12.4.1" />
+    <Compile Remove="bus\ICommandQueryBus.cs" />
+    <Compile Remove="bus\MediatrCommandQueryBus.cs" />
+    <Compile Remove="commands\IRequestCommand.cs" />
+    <Compile Remove="commands\IRequestCommandHandler.cs" />
+    <Compile Remove="notification\IRequestNotificationsHandler.cs" />
+    <Compile Remove="query\IRequestQuery.cs" />
+    <Compile Remove="query\IRequestQueryHanlder.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bus\ICommandQueryBus.cs" />
+    <None Include="bus\MediatrCommandQueryBus.cs" />
+    <None Include="commands\IRequestCommand.cs" />
+    <None Include="commands\IRequestCommandHandler.cs" />
+    <None Include="notification\IRequestNotificationsHandler.cs" />
+    <None Include="query\IRequestQuery.cs" />
+    <None Include="query\IRequestQueryHanlder.cs" />
   </ItemGroup>
 
 </Project>

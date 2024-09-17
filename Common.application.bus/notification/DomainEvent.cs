@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.application.bus.bus
+namespace Common.application.bus.notification
 {
-    class Mediatr
+    public class DomainEvent : IRequestNotifications
     {
     }
 }
